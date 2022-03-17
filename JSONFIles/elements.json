@@ -1,0 +1,14 @@
+{
+  "register" :
+  {
+    "username_textbox" : "fld_username",
+    "password_textbox" : "fld_password",
+    "email_textbox" : "fld_email"
+  },
+  "login" :
+  {
+    "username_textbox" : "fld_username",
+    "password_textbox" : "fld_password"
+  }
+}
+

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.3 (Python 3.7.4 on win32)" generated="20220316 19:59:21.172" rpa="false" schemaversion="2">
+<suite id="s1" name="TC004" source="D:\Downloads\WorkSpace\TestCase\RegisterTC\TC004.robot">
+<test id="s1-t1" name="First Case">
+<kw name="Add Two Values" library="R001">
+<arg>sanurasif</arg>
+<arg>123456</arg>
+<kw name="Add Two Value" library="KeyWords">
+<var>${result}</var>
+<arg>${username}</arg>
+<arg>${password}</arg>
+<msg timestamp="20220316 19:59:21.368" level="INFO">${result} = sanurasif 123456</msg>
+<status status="PASS" starttime="20220316 19:59:21.368" endtime="20220316 19:59:21.368"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>${result}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20220316 19:59:21.368" level="INFO">sanurasif 123456</msg>
+<status status="PASS" starttime="20220316 19:59:21.368" endtime="20220316 19:59:21.368"/>
+</kw>
+<status status="PASS" starttime="20220316 19:59:21.367" endtime="20220316 19:59:21.368"/>
+</kw>
+<status status="PASS" starttime="20220316 19:59:21.367" endtime="20220316 19:59:21.369"/>
+</test>
+<status status="PASS" starttime="20220316 19:59:21.173" endtime="20220316 19:59:21.371"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="TC004">TC004</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
